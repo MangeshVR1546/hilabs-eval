@@ -1,0 +1,35 @@
+# HiLabs Workshop — Clinical AI Evaluation Framework
+# =====================================================
+# This project uses ZERO third-party packages.
+# Everything runs on Python standard library only.
+#
+# Standard library modules used (no pip install needed):
+#   json        — JSON parsing and serialisation
+#   re          — Regular expressions (NegEx patterns)
+#   sys         — CLI argument handling
+#   os          — Environment variable access (API key)
+#   math        — Exponential decay for proximity scoring
+#   time        — Retry backoff timing
+#   logging     — Structured log output
+#   pathlib     — File path handling
+#   urllib      — Groq API HTTP calls (no requests needed)
+#   hashlib     — MD5 cache key generation
+#   collections — defaultdict for metric aggregation
+#
+# ── LLM Provider (FREE, no pip install needed) ────────────────────────
+#   Groq API — accessed via stdlib urllib
+#   Sign up  : https://console.groq.com
+#   Set key  : export GROQ_API_KEY=gsk_your_key_here
+#   Model    : llama-3.3-70b-versatile (primary)
+#   Fallback : llama3-8b-8192 (auto on rate limit)
+#   Limits   : 14,400 requests/day free, no credit card needed
+#
+# ── Python Version ────────────────────────────────────────────────────
+#   Python >= 3.8 required
+#
+# ── To verify your Python version ────────────────────────────────────
+#   python --version
+#
+# ── No installation needed. Just run: ────────────────────────────────
+#   python test.py input.json output.json
+#   python run_all.py

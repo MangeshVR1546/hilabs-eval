@@ -1,0 +1,48 @@
+{
+  "file_name": "371W13971_J722-244055_20241128",
+  "entity_type_error_rate": {
+    "MEDICINE": 0.1126,
+    "PROBLEM": 0.0,
+    "PROCEDURE": 0.0,
+    "TEST": 0.2264,
+    "VITAL_NAME": 0.0317,
+    "IMMUNIZATION": 0.0,
+    "MEDICAL_DEVICE": 0.0,
+    "MENTAL_STATUS": 0.0,
+    "SDOH": 0.0,
+    "SOCIAL_HISTORY": 0.0
+  },
+  "assertion_error_rate": {
+    "POSITIVE": 0.3621,
+    "NEGATIVE": 0.1552,
+    "UNCERTAIN": 0.3077
+  },
+  "temporality_error_rate": {
+    "CURRENT": 0.2196,
+    "CLINICAL_HISTORY": 0.6481,
+    "UPCOMING": 0.6154,
+    "UNCERTAIN": 0.0714
+  },
+  "subject_error_rate": {
+    "PATIENT": 0.0228,
+    "FAMILY_MEMBER": 0.0
+  },
+  "event_date_accuracy": 1.0,
+  "attribute_completeness": 0.9541,
+  "_meta": {
+    "total_entities": 836,
+    "entities_with_dates": 62,
+    "entity_breakdown": {
+      "MEDICINE": 151,
+      "PROBLEM": 213,
+      "PROCEDURE": 309,
+      "TEST": 53,
+      "VITAL_NAME": 63,
+      "IMMUNIZATION": 14,
+      "MEDICAL_DEVICE": 15,
+      "MENTAL_STATUS": 9,
+      "SDOH": 4,
+      "SOCIAL_HISTORY": 5
+    }
+  }
+}
